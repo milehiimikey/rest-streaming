@@ -1,0 +1,15 @@
+###
+POST http://localhost:8080/messages
+Content-Type: application/json
+
+{
+  "value": "Hello, World!"
+}
+
+###
+POST localhost:8080/messages
+Content-Type: application/json
+
+{
+  "value": "Dave's not here"
+}
